@@ -1,3 +1,77 @@
+/* =========================================
+   ESTILO GERAL DO SITE
+========================================= */
 body {
-    background-color: #520202;
+    background-color: #310505;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+}
+
+/* =========================================
+   MENU DE NAVEGAÇÃO
+========================================= */
+nav {
+    background-color: #5c0303;
+    padding: 5px; /* Distancia entre a palavra e o fundo */
+    border-radius: 10px;
+    box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.4); /* Efeito 3D de sombra */
+}
+
+nav ul {
+    list-style: none; /* Remove a bolinha presente na lista */
+    display: flex; /* Deixa a lista deitada */
+    gap: 50px; /* Deixa um espaço entre cada palavra da lista */
+}
+
+a {
+    color: white;
+    text-decoration: none; /* Remove o sublinhado da palavra */
+} 
+
+a:hover {
+    color: blueviolet; /* Cor que o texto fica quando passa o mouse */
+}
+
+/* =========================================
+   CARTÃO PRINCIPAL
+========================================= */
+main {
+    background-color: #5c0303; /* Cor de fundo da caixa principal */
+    max-width: 800px; /* Limita a largura para não esticar na tela toda */
+    margin: 40px auto; /* O "auto" é o truque mágico que centraliza a caixa */
+    border-radius: 10px; 
+    padding: 40px; /* Espaço interno para o texto não colar na borda */
+    color: white;
+    box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.4); /* Efeito 3D de sombra */
+}
+
+/* =========================================
+   BOTÃO DE PROJETOS
+========================================= */
+button {
+    background-color: #310505;
+    color: white;
+    cursor: pointer; /* Transforma o mouse em mãozinha */
+    transition: 0.3s; /* Deixa o movimento suave */
+    border-radius: 5px;
+    padding: 10px;
+    border: none; /* Remove a borda cinza padrão do navegador */
+}
+
+button:hover {
+    transform: translateY(-2px); /* Efeito de subir o botão */
+}
+
+/* =========================================
+   RODAPÉ
+========================================= */
+footer {
+    background-color: rgb(80, 3, 3);
+    text-align: center; /* Centralizar o texto */
+    max-width: 800px;
+    margin: 40px auto;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.4); /* Efeito 3D de sombra */
 }
