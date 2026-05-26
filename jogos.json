@@ -1,0 +1,17 @@
+{
+  "gow2": {
+    "nome": "God of War 2",
+    "descricao": "Nesta sequência épica, Kratos busca vingança contra Zeus após ser traído. Enfrente divindades colossais e criaturas mitológicas em um dos títulos mais aclamados da era do PlayStation 2, com jogabilidade frenética e combos devastadores.",
+    "imagem": "IMG/gow2.PNG"
+  },
+  "eldenring": {
+    "nome": "Elden Ring",
+    "descricao": "Explore as Terras Intermédias neste RPG de ação de mundo aberto premiado. Com uma narrativa profunda criada em colaboração com George R.R. Martin, o jogo desafia o jogador a enfrentar chefes monumentais em uma jornada épica pelo trono de Elden.",
+    "imagem": "IMG/Elden_Ring.png"
+  },
+  "witcher3": {
+    "nome": "The Witcher 3: Wild Hunt",
+    "descricao": "Assuma o papel de Geralt de Rívia, um caçador de monstros profissional. Em um mundo aberto vasto e rico em detalhes, suas escolhas moldam o destino de reinos inteiros enquanto você procura por Ciri, a criança da profecia.",
+    "imagem": "IMG/witcher_3.png"
+  }
+}
