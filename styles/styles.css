@@ -52,7 +52,7 @@ main {
     max-width: 1000px; /* Limita a largura para não esticar na tela toda */
     margin: 20px auto; /* O "auto" é o truque mágico que centraliza a caixa */
     border-radius: 10px; 
-    padding: 40px; /* Espaço interno para o texto não colar na borda */
+    padding: 60px; /* Espaço interno para o texto não colar na borda */
     color: white;
     box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.4); /* Efeito 3D de sombra */
     text-align: center; /* Centraliza o texto dentro da caixa */
@@ -74,4 +74,75 @@ footer {
     border-radius: 10px;
     padding: 20px;
     box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.4); /* Efeito 3D de sombra */
+    font-size: 10px;
 }
+
+/* =========================================
+   PÁGINA DE PROJETO
+========================================= */
+a {
+    text-decoration: none;
+}
+
+
+
+
+/* =========================================
+   ESTILO DA PAGINA DE PROJETO
+========================================= */
+
+.container-jogos {
+    display: flex;
+    gap: 40px; /* Espaço entre os cartões */
+    justify-content: center; /* Centraliza os cartões horizontalmente */
+    margin-top: 20px; /* Espaço acima dos cartões */
+    flex-wrap: wrap; /* Permite que os cartões quebrem para a próxima linha em telas menores */
+}
+
+
+
+.game-card {
+    width: 200px; /* Largura fixa para os cartões */
+    background-color: rgb(2, 42, 102); /* Cor de fundo do cartão */
+    padding: 20px; /* Espaço interno para o texto não colar na borda */
+    border-radius: 15px;
+    box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.4); /* Efeito 3D de sombra */ 
+    align-items: center; /* Centraliza os cartões verticalmente */
+}
+
+
+.game-card img {
+    width: 100%;
+    width: 200px;
+}
+
+
+
+
+
+/* =========================================
+   BODY PÁGINA PROJETO
+========================================= */
+
+body.pag-projeto {
+    background: linear-gradient(rgb(0, 68, 255), rgb(0, 0, 0));
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+}
+
+/* =========================================
+   RODAPÉ PÁGINA PROJETO
+========================================= */
+
+footer.rodape-catalogo {
+    background-color: rgba(11, 25, 44, 0.90); /* Cor de fundo do rodapé */
+    text-align: center; /* Centralizar o texto */
+    max-width: 800px;
+    margin: 20px auto;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.4); /* Efeito 3D de sombra */
+    font-size: 10px;
+}
+    
